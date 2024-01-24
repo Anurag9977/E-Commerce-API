@@ -327,35 +327,44 @@
 
 #### Create Docs
 
-- [] [Docgen Library] (https://github.com/thedevsaddam/docgen)
-- [] Export Postman Collection
-- [] docgen build -i fileName.json -o index.html
-- [] create index.html in public
+- [x] [Docgen Library] (https://github.com/thedevsaddam/docgen)
+- [x] Export Postman Collection
+- [x] docgen build -i fileName.json -o index.html
+- [x] create index.html in public
 
 #### Security Packages
 
-- [] express-rate-limiter
-- [] helmet
-- [] xss-clean
-- [] express-mongo-sanitize
-- [] cors (cookies!!!!)
+- [x] express-rate-limiter
+- [x] helmet
+- [x] xss-clean
+- [x] express-mongo-sanitize
+- [x] cors (cookies!!!!)
 
-#### Deploy on Heroku
+#### Option -1 -> Deploy on Heroku
 
-- [] heroku account and heroku cli
-- [] remove/copy from the main repo
-- [] add dev command "nodemon app.js"
-- [] change start to "node app.js"
-- [] setup node version in package.json
-- [] "engines": {"node": "14.x"}
-- [] Procfile "web: node app.js"
-- [] remove existing git repo
-- [] rm -rf .git - mac,
-- [] git init
-- [] git add .
-- [] git commit -m "initial commit"
-- [] heroku login
-- [] heroku create "App Name"
-- [] git remote -v
-- [] setup env vars in GUI
-- [] git push heroku master/main
+- [x] heroku account and heroku cli
+- [x] remove/copy from the main repo
+- [x] add dev command "nodemon app.js"
+- [x] change start to "node app.js"
+- [x] setup node version in package.json
+- [x] "engines": {"node": "14.x"}
+- [x] Procfile "web: node app.js"
+- [x] remove existing git repo
+- [x] rm -rf .git - mac,
+- [x] git init
+- [x] git add .
+- [x] git commit -m "initial commit"
+- [x] heroku login
+- [x] heroku create "App Name"
+- [x] git remote -v
+- [x] setup env vars in GUI
+- [x] git push heroku master/main
+
+#### Option -2 -> Deploy on Render
+
+- [x] git init
+- [x] git add .
+- [x] git commit -m "initial commit"
+- [x] create web service on Render
+- [x] deploy using gethub repo - select your repo
+- [x] add environment variables
